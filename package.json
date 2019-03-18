@@ -18,7 +18,8 @@
     "format:ts:prettier": "prettier --write '{pages,src,types}/**/*.ts{,x}'",
     "format:ts:tslint": "tslint --fix -p . '{pages,src,types}/**/*.ts{,x}'",
     "gh-pages": "gh-pages -b master -d public -m 'Deploy to master'",
-    "lint": "tslint -p . '{pages,src,types}/**/*.ts{,x}'"
+    "lint": "tslint -p . '{pages,src,types}/**/*.ts{,x}'",
+    "test": "run-s lint"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
