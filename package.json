@@ -5,15 +5,40 @@
   "author": "Koki Sato <s.4115.koki@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "cp -LR src/ public/",
-    "clean": "rimraf public",
+    "build": "run-s build:next build:cname",
+    "build:cname": "cp CNAME public/CNAME",
+    "build:next": "next build && next export -o public",
+    "clean": "rimraf .next public",
     "deploy": "run-s clean build gh-pages",
+    "dev": "next",
+    "format": "run-p format:config format:css format:ts",
+    "format:config": "prettier --write '*.{js,json}'",
+    "format:css": "prettier --no-config --parser scss --write 'src/styles/**/*.scss'",
+    "format:ts": "run-s format:ts:*",
+    "format:ts:prettier": "prettier --write '{pages,src,types}/**/*.ts{,x}'",
+    "format:ts:tslint": "tslint --fix -p . '{pages,src,types}/**/*.ts{,x}'",
     "gh-pages": "gh-pages -b master -d public -m 'Deploy to master'",
-    "server": "http-server -p 8000"
+    "lint": "tslint -p . '{pages,src,types}/**/*.ts{,x}'"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "@zeit/next-typescript": "^1.1.1",
+    "bulma": "^0.7.4",
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
   },
   "devDependencies": {
+    "@types/next": "^8.0.1",
+    "@types/react": "^16.8.8",
     "gh-pages": "^2.0.1",
-    "http-server": "^0.11.1",
-    "npm-run-all": "^4.1.5"
+    "node-sass": "^4.11.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.16.4",
+    "tslint": "^5.14.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.3.3333"
   }
 }
