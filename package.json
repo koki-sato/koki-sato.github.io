@@ -1,0 +1,19 @@
+{
+  "name": "koki-sato.github.io",
+  "description": "My portfolio page",
+  "repository": "https://github.com/koki-sato/koki-sato.github.io.git",
+  "author": "Koki Sato <s.4115.koki@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "cp -LR src/ public/",
+    "clean": "rimraf public",
+    "deploy": "run-s clean build gh-pages",
+    "gh-pages": "gh-pages -b master -d public -m 'Deploy to master'",
+    "server": "http-server -p 8000"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "http-server": "^0.11.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
