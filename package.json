@@ -5,9 +5,9 @@
   "author": "Koki Sato <s.4115.koki@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "run-s build:next build:cname",
-    "build:cname": "cp CNAME public/CNAME",
+    "build": "run-s build:*",
     "build:next": "next build && next export -o public",
+    "build:settings": "cp CNAME public/CNAME && touch public/.nojekyll",
     "clean": "rimraf .next public",
     "deploy": "run-s clean build gh-pages",
     "dev": "next",
@@ -17,7 +17,7 @@
     "format:ts": "run-s format:ts:*",
     "format:ts:prettier": "prettier --write '{pages,src,types}/**/*.ts{,x}'",
     "format:ts:tslint": "tslint --fix -p . '{pages,src,types}/**/*.ts{,x}'",
-    "gh-pages": "gh-pages -b master -d public -m 'Deploy to master'",
+    "gh-pages": "gh-pages -b master -d public -t -m '[ci skip] Deploy to master'",
     "lint": "tslint -p . '{pages,src,types}/**/*.ts{,x}'",
     "test": "run-s lint"
   },
