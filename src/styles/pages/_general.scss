@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+  overflow: auto;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0px;
+  min-width: $break-point-minimum;
+  background-color: $theme-gray;
+}
+
+.allWrapper {
+  min-height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ul ul,
+ol ul {
+  list-style-type: circle;
+}
+
+ol ol ul,
+ol ul ul,
+ul ol ul,
+ul ul ul {
+  list-style-type: square;
+}
