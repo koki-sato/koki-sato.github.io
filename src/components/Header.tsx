@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { useToggle } from 'react-use'
+import useToggle from 'react-use/lib/useToggle'
 
 const Header: React.FC = () => {
   const [open, toggle] = useToggle(false)
