@@ -1,98 +1,61 @@
 .p-index {
-  &_hero {
-    background-color: $theme-gray;
-    width: 100%;
-    padding-top: $space-base-size * 20;
-    padding-bottom: $space-base-size * 22;
-    text-align: center;
+  width: 100%;
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 
-    .title {
-      font-size: 72px;
-      font-weight: 700;
-      padding-bottom: $space-base-size * 2;
-      letter-spacing: 3px;
-      color: $theme-green;
-
-      @media (max-width: $break-point-xs) {
-        font-size: 60px;
-        letter-spacing: 1px;
-      }
-    }
-
-    .subtitle {
-      font-size: 32px;
-      font-weight: 400;
-      color: $theme-dark-gray;
-
-      @media (max-width: $break-point-xs) {
-        font-size: 24px;
-      }
-    }
-
-    .buttons {
-      justify-content: center;
-      align-items: center;
-      margin-top: $space-base-size * 6;
-
-      .button-link {
-        width: 130px;
-        height: 52px;
-        margin: 0px 7px 20px;
-        padding: 12px 30px;
-        font-size: 18px;
-        font-weight: 500;
-        border: 2px solid transparent;
-        border-radius: 0px;
-        color: $theme-green;
-        background-color: #ffffff;
-        border-color: $theme-green;
-
-        &:hover,
-        &:focus {
-          color: #ffffff;
-          background-color: $theme-green;
-          text-decoration: none;
-        }
-      }
-    }
+  @media (max-width: $break-point-xs) {
+    padding-top: 80px;
   }
 
-  &_profile {
-    background-color: $theme-green;
-    width: 100%;
-    padding-top: $space-base-size * 6;
-    padding-bottom: $space-base-size * 16;
-    color: $theme-white;
-
-    .column {
-      padding-left: $space-base-size * 10;
-      font-size: 20px;
-      line-height: 1.8em;
-
-      @media (max-width: $break-point-xs) {
-        padding-left: $space-base-size * 4;
-      }
-
-      .subtitle {
-        font-size: 28px;
-        font-weight: 400;
-        color: $theme-white;
-      }
-
-      ul {
-        padding-left: $space-base-size * 5;
-      }
-    }
-  }
-
-  &_label {
-    background-color: #4e4e4e;
-    padding-top: $space-base-size * 1.5;
-    padding-bottom: $space-base-size * 1.5;
+  .title {
+    font-size: 72px;
+    font-weight: 700;
+    padding-bottom: $space-base-size * 2;
+    letter-spacing: 3px;
+    color: $theme-green;
 
     @media (max-width: $break-point-xs) {
-      padding-top: $space-base-size;
-      padding-bottom: $space-base-size;
+      font-size: 60px;
+      letter-spacing: 1px;
+    }
+  }
+
+  .subtitle {
+    font-size: 32px;
+    font-weight: 400;
+    color: $theme-gray;
+
+    @media (max-width: $break-point-xs) {
+      font-size: 24px;
+    }
+  }
+
+  .buttons {
+    justify-content: center;
+    align-items: center;
+    margin-top: $space-base-size * 6;
+
+    .button-link {
+      width: 140px;
+      height: 52px;
+      margin: 0px 7px 20px;
+      padding: 12px 30px;
+      font-size: 18px;
+      font-weight: 500;
+      border: 2px solid transparent;
+      border-radius: 0px;
+      color: $theme-green;
+      background-color: $theme-white;
+      border-color: $theme-green;
+
+      &:hover,
+      &:focus {
+        color: $theme-white;
+        background-color: $theme-green;
+        text-decoration: none;
+      }
     }
   }
 }
