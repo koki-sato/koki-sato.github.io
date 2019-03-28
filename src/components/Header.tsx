@@ -26,9 +26,9 @@ const Header: React.FC = () => {
                 <Link href="/about">
                   <button className="button is-white">About</button>
                 </Link>
-                <Link href="/contact">
-                  <button className="button is-white">Contact</button>
-                </Link>
+                <a href="http://k-sato.hatenablog.com/">
+                  <button className="button is-white">Blog</button>
+                </a>
               </div>
             </div>
           </div>
