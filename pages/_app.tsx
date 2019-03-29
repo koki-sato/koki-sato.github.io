@@ -11,6 +11,25 @@ import 'bulma/css/bulma.min.css'
 import '../src/styles/index.scss'
 
 class MyApp extends App {
+  public componentDidMount() {
+    if ('serviceWorker' in navigator && navigator.serviceWorker) {
+      navigator.serviceWorker
+        .register('/service-worker.js')
+        .then((registration) => {
+          if (registration.installing) {
+            console.log('ServiceWorker installing')
+          } else if (registration.waiting) {
+            console.log('ServiceWorker installed')
+          } else if (registration.active) {
+            console.log('ServiceWorker active')
+          }
+        })
+        .catch((error) => {
+          console.log('ServiceWorker registration failed with ' + error)
+        })
+    }
+  }
+
   public render() {
     const { Component, pageProps } = this.props
 
