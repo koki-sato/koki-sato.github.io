@@ -59,6 +59,7 @@ class MyApp extends App {
           <link rel="icon" type="image/png" sizes="192x192" href="/static/favicon-192x192.png" />
           <link rel="icon" href="/static/favicon.ico" />
           <link rel="manifest" href="/static/manifest.json" />
+          <meta name="google-site-verification" content="jJ6xDDJwsIAbtywtwhU_HSs5WUjCAnGyltqMQfddcQg" />
         </Head>
         <div className="allWrapper">
           <Header />
