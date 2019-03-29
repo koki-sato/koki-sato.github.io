@@ -16,7 +16,8 @@
     "format:tslint": "tslint --fix -p . '{pages,src,types}/**/*.ts{,x}'",
     "gh-pages": "gh-pages -b master -d public -t -m '[ci skip] Deploy to master'",
     "lint": "tslint -p . '{pages,src,types}/**/*.ts{,x}'",
-    "test": "run-s lint"
+    "test": "run-s lint typecheck",
+    "typecheck": "tsc -p . --noEmit"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
