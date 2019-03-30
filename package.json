@@ -9,6 +9,7 @@
     "build:next": "next build && next export -o public",
     "build:service-worker": "workbox generateSW workbox-config.js",
     "build:settings": "cp CNAME public/CNAME && touch public/.nojekyll",
+    "build:blog": "cp -r blog public/blog",
     "clean": "rimraf .next public",
     "deploy": "run-s clean build gh-pages",
     "dev": "next",
