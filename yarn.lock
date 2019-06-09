@@ -5203,10 +5203,10 @@ react-is@^16.3.2, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
-react-use@6.2.1:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/react-use/-/react-use-6.2.1.tgz#681fc7ff80f8e128b047846bd648c238b2f10723"
-  integrity sha512-BPOfhoxFFdmGe8qqrpNggJSWkokWsyxuavjEDMrXoybhMHIc4g//4/Xq/46zN4KSSU+QjBDb60doNo2ZFw5MGQ==
+react-use@6.2.2:
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/react-use/-/react-use-6.2.2.tgz#d465d89bb22ed7b8e3269c6faaba5a866deeb8a7"
+  integrity sha512-EaG9L1Ml0xJSbR5szcKyadh8wEOPRwaCZK0oPezbxpfo+YYaGen/kugniOZmGcKETSaIdZy4NRMDa77qSmUG7Q==
   dependencies:
     nano-css "^5.1.0"
     react-wait "^0.3.0"
