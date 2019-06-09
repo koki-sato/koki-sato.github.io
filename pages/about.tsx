@@ -6,16 +6,16 @@ const About: React.FC = () => (
     <div className="panel">
       <h2 className="subtitle">About</h2>
       <ul>
-        <li>Master's student in Computer Science major</li>
+        <li>Network Engineer</li>
         <li>Web Engineer</li>
-        <li>CTF Player (Team m1z0r3)</li>
+        <li>CTF Player</li>
       </ul>
     </div>
     <div className="panel">
       <h2 className="subtitle">Career History</h2>
       <ul>
         <li>
-          2019/04 - Present : <b>NTT Communications Corporation</b> -- <i>ICT Engineer</i>
+          2019/04 - Present : <b>Internet Multifeed Co.</b> -- <i>Network Engineer</i>
         </li>
         <li>
           2016/10 - 2019/02 : <b>Increments inc.</b> -- <i>Engineer part-time job</i>
