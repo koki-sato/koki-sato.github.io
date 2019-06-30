@@ -5244,10 +5244,10 @@ react-ssr-prepass@1.0.2:
   dependencies:
     object-is "^1.0.1"
 
-react-use@9.7.0:
-  version "9.7.0"
-  resolved "https://registry.yarnpkg.com/react-use/-/react-use-9.7.0.tgz#73da2d4e45c76a5575213ca8ddb9c1d31c76ad64"
-  integrity sha512-MSF/J+grPwzfhEbI1qyGXCc5o6+/1iPVEQt735fLuxxvHD3Ea+2UIY4qkIYrpRE93yoY6vtF9OeEoLLLBft/mw==
+react-use@9.8.1:
+  version "9.8.1"
+  resolved "https://registry.yarnpkg.com/react-use/-/react-use-9.8.1.tgz#ace752444e5925eeac4b6366d2bac030beffbfdb"
+  integrity sha512-FYwJEczwc4JFXdgnnZqHY9yHfD+56BP0ubv9HQhvNWO0ajeyIlEdD9gcgfQo8/2NSLmzS2AVWom1D+GGxAXR+g==
   dependencies:
     copy-to-clipboard "^3.1.0"
     nano-css "^5.1.0"
