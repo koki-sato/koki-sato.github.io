@@ -2,7 +2,7 @@
   "name": "koki-sato.github.io",
   "description": "My portfolio page",
   "repository": "https://github.com/koki-sato/koki-sato.github.io.git",
-  "author": "Koki Sato <s.4115.koki@gmail.com>",
+  "author": "Koki Sato <contact@koki-sato.com>",
   "license": "MIT",
   "engines": {
     "node": "10.16.0",
@@ -17,10 +17,10 @@
     "deploy": "run-s clean build gh-pages",
     "dev": "next",
     "format": "run-s format:*",
-    "format:prettier": "prettier --write '{pages,src,types}/**/*.{scss,js,ts,tsx}' '*.{js,json}'",
-    "format:tslint": "tslint --fix -p . '{pages,src,types}/**/*.ts{,x}'",
+    "format:prettier": "prettier --write {pages,src,types}/**/*.{scss,js,ts,tsx} *.{js,json}",
+    "format:tslint": "tslint --fix -p . {pages,src,types}/**/*.ts{,x}",
     "gh-pages": "gh-pages -b master -d public -t -m '[ci skip] Deploy to master'",
-    "lint": "tslint -p . '{pages,src,types}/**/*.ts{,x}'",
+    "lint": "tslint -p . {pages,src,types}/**/*.ts{,x}",
     "test": "run-s lint typecheck",
     "typecheck": "tsc -p . --noEmit"
   },
