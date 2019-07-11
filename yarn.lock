@@ -5307,10 +5307,10 @@ react-is@16.8.6, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
-react-use@^9.10.0:
-  version "9.10.0"
-  resolved "https://registry.yarnpkg.com/react-use/-/react-use-9.10.0.tgz#2ec0e626e085975220c813279870a56b0d910850"
-  integrity sha512-Z2GUDMUqD43tGMYqV3o+ct8Df6/IlNokVCO02l08RdPk3auXXWxQsmJQTBrCyoD6JMLj03Ap8AHNoOsLROSEgg==
+react-use@^9.11.0:
+  version "9.11.0"
+  resolved "https://registry.yarnpkg.com/react-use/-/react-use-9.11.0.tgz#fc045b7606a69ef4a9d7da5989ac7787141ab3a1"
+  integrity sha512-+YJDnQ+uiRZJ6Igs7FVyMAxvq/W/ZtYTssEAkydyvJF2Y2I8+Hk177/ZFmpPJYA9YO+pxE1tVJ+1mmwS4+Pxbg==
   dependencies:
     copy-to-clipboard "^3.1.0"
     nano-css "^5.1.0"
