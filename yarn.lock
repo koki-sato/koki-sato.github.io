@@ -866,6 +866,13 @@
     "@types/react" "*"
     "@types/webpack" "*"
 
+"@types/react-wait@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@types/react-wait/-/react-wait-0.3.0.tgz#6f7ef17571a17e72c7864ede8cf7d3aa525a005e"
+  integrity sha512-5jIfDcHRjqeE7QfZG7kCqOpfrPSvOM1E3/nlKuJ/NZrG/WrhLo/AFr0i72jhTWzyNRo4ex0pshBaiCHksZXH3A==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^16.8.23":
   version "16.8.23"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.23.tgz#ec6be3ceed6353a20948169b6cb4c97b65b97ad2"
@@ -5302,11 +5309,12 @@ react-is@16.8.6, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
-react-use@^9.11.2:
-  version "9.11.2"
-  resolved "https://registry.yarnpkg.com/react-use/-/react-use-9.11.2.tgz#996d31323f45daf452fabd6684cd7ce54d8c6d76"
-  integrity sha512-OZa5NUxp9rylw8RmmJX6vAiaP6iULewOwg68WtA5e08F9u8HrFreDEzJgMrRf8806/rmSZIlLRv1De80b0ChDw==
+react-use@^10.1.2:
+  version "10.1.2"
+  resolved "https://registry.yarnpkg.com/react-use/-/react-use-10.1.2.tgz#9d42cecce77531b2cf764bc013b2284ac7623b57"
+  integrity sha512-Y80ix2tqD5Fn0sTvJMOC8V03dMgiXzZeHxNl4ZXbVKC8ymtAL+zrEsxq5c+f82An6k8IaChjRai3fc4csDy+mQ==
   dependencies:
+    "@types/react-wait" "^0.3.0"
     copy-to-clipboard "^3.1.0"
     nano-css "^5.1.0"
     react-fast-compare "^2.0.4"
