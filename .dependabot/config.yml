@@ -8,11 +8,8 @@ update_configs:
       - koki-sato
     allowed_updates:
       - match:
-          update_type: all
+          dependency_type: direct
     automerged_updates:
       - match:
-          dependency_type: development
-          update_type: all
-      - match:
-          dependency_type: production
+          dependency_type: all
           update_type: semver:minor
