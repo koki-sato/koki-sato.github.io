@@ -31,7 +31,7 @@
     "next": "^9.0.3",
     "next-ga": "^2.3.4",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react-dom": "^16.9.0",
     "react-use": "^10.5.0"
   },
   "devDependencies": {
