@@ -37,7 +37,7 @@
   "devDependencies": {
     "@types/next": "^8.0.6",
     "@types/react": "^16.8.25",
-    "gh-pages": "^2.1.0",
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.12.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^1.18.2",
