@@ -32,7 +32,7 @@
     "next-ga": "^2.3.4",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-use": "^12.2.3"
+    "react-use": "^12.3.0"
   },
   "devDependencies": {
     "@types/next": "^8.0.6",
