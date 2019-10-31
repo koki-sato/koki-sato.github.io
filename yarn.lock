@@ -6018,10 +6018,10 @@ react-is@16.8.6, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
-react-use@^12.11.0:
-  version "12.11.0"
-  resolved "https://registry.yarnpkg.com/react-use/-/react-use-12.11.0.tgz#2c2807b980997514ebd6ef0a49d98ee8eb39508d"
-  integrity sha512-0s941725hilRIQxbrC3LxbS9ZLtIHZKTLZNSv3feHm+sBGTRMERwQj+WGW3YmCAOIz2XJ6yCyY6dDfdePH0PTw==
+react-use@^12.12.0:
+  version "12.12.0"
+  resolved "https://registry.yarnpkg.com/react-use/-/react-use-12.12.0.tgz#873161ec8106cfb96385a9f563f7b88de6ffa112"
+  integrity sha512-BdwNx5qRYi5vGq/LunlhQTMvPL/bhwPX4v9lBQGc0ra9GDGPl+CYjolBoIGhNmYwsow3elEoXj0SrKHbfQGIhw==
   dependencies:
     "@types/react-wait" "^0.3.0"
     copy-to-clipboard "^3.1.0"
