@@ -35,7 +35,7 @@
     "react-use": "^12.13.0"
   },
   "devDependencies": {
-    "@types/next": "^8.0.6",
+    "@types/next": "^8.0.7",
     "@types/react": "^16.9.11",
     "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0",
