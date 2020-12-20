@@ -45,6 +45,6 @@
     "tslint-config-prettier": "^1.18.0",
     "tslint-react": "^4.0.0",
     "typescript": "^3.5.2",
-    "workbox-cli": "^4.3.1"
+    "workbox-cli": "^6.0.2"
   }
 }
