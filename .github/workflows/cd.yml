@@ -8,17 +8,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out
-        uses: actions/checkout@v1
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
         with:
-          node-version: 10
+          node-version: 14.x
       - run: yarn install
-      - run: git config user.name $MY_GITHUB_NAME
-        env:
-          MY_GITHUB_NAME: ${{ secrets.MY_GITHUB_NAME }}
-      - run: git config user.email $MY_GITHUB_EMAIL
-        env:
-          MY_GITHUB_EMAIL: ${{ secrets.MY_GITHUB_EMAIL }}
-      - run: yarn run deploy
+      - run: yarn build
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
