@@ -1,11 +1,11 @@
-name: CD
+name: Build and Test
 
 on:
   push:
-    branches: [develop]
+    branches-ignore: [gh-pages]
 
 jobs:
-  deploy:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -14,7 +14,4 @@ jobs:
           node-version: 14.x
       - run: yarn install
       - run: yarn build
-      - uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+      - run: yarn test
