@@ -1,6 +1,7 @@
 # koki-sato.github.io
 
-[![CircleCI](https://circleci.com/gh/koki-sato/koki-sato.github.io.svg?style=svg)](https://circleci.com/gh/koki-sato/koki-sato.github.io)
+![Build and Test](https://github.com/koki-sato/koki-sato.github.io/workflows/Build%20and%20Test/badge.svg)
+![GitHub Pages](https://github.com/koki-sato/koki-sato.github.io/workflows/GitHub%20Pages/badge.svg)
 
 My portfolio page. See https://koki-sato.com
 
@@ -18,4 +19,4 @@ $ yarn install
 
 ### Deploy
 
-Circle CI will deploy automatically when you push to `develop` branch :)
+GitHub Actions will deploy automatically when you push to `master` branch :)
