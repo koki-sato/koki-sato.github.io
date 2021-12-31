@@ -6,7 +6,7 @@ const Footer: React.FC = () => (
       <div className="footer-line_green" />
       <div className="footer-line_black" />
     </div>
-    <footer>Copyright &copy; 2019 Koki Sato All Rights Reserved.</footer>
+    <footer>Copyright &copy; 2022 Koki Sato All Rights Reserved.</footer>
   </React.Fragment>
 )
 
