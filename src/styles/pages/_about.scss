@@ -16,19 +16,10 @@
     text-align: center;
   }
 
-  .panel {
-    margin-bottom: $space-base-size * 5;
-
-    @media (max-width: $break-point-xs) {
-      margin-left: $space-base-size * -2;
-    }
-  }
-
-  .subtitle {
-    font-size: 28px;
+  .card-header-title {
+    font-size: 20px;
     font-weight: 600;
     color: $theme-green;
-    text-decoration: underline;
   }
 
   li {
