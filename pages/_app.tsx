@@ -1,5 +1,5 @@
 import withGA from 'next-ga'
-import App, { Container } from 'next/app'
+import App from 'next/app'
 import Head from 'next/head'
 import Router from 'next/router'
 import React from 'react'
@@ -34,7 +34,7 @@ class MyApp extends App {
     const { Component, pageProps } = this.props
 
     return (
-      <Container>
+      <React.Fragment>
         <Head>
           <title>Koki Sato</title>
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -59,14 +59,17 @@ class MyApp extends App {
           <link rel="icon" type="image/png" sizes="192x192" href="/static/favicon-192x192.png" />
           <link rel="icon" href="/static/favicon.ico" />
           <link rel="manifest" href="/static/manifest.json" />
-          <meta name="google-site-verification" content="jJ6xDDJwsIAbtywtwhU_HSs5WUjCAnGyltqMQfddcQg" />
+          <meta
+            name="google-site-verification"
+            content="jJ6xDDJwsIAbtywtwhU_HSs5WUjCAnGyltqMQfddcQg"
+          />
         </Head>
         <div className="allWrapper">
           <Header />
           <Component {...pageProps} />
           <Footer />
         </div>
-      </Container>
+      </React.Fragment>
     )
   }
 }
