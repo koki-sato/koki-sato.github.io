@@ -13,10 +13,10 @@
     "dev": "next",
     "format": "run-s format:*",
     "format:prettier": "prettier --write '{pages,src,types}/**/*.{scss,js,ts,tsx}' '*.{js,json}'",
-    "format:tslint": "tslint --fix -p . '{pages,src,types}/**/*.ts{,x}'",
+    "format:eslint": "eslint --fix '{pages,src,types}/**/*.ts{,x}'",
     "lint": "run-p lint:*",
     "lint:prettier": "prettier --check '{pages,src,types}/**/*.{scss,js,ts,tsx}' '*.{js,json}'",
-    "lint:tslint": "tslint -p . '{pages,src,types}/**/*.ts{,x}'",
+    "lint:eslint": "eslint '{pages,src,types}/**/*.ts{,x}'",
     "test": "run-s lint typecheck",
     "typecheck": "tsc -p . --noEmit"
   },
@@ -32,12 +32,12 @@
   "devDependencies": {
     "@types/next": "^9.0.0",
     "@types/react": "^17.0.38",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7",
+    "eslint-config-prettier": "^8.3.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.5.1",
     "sass": "^1.45.2",
-    "tslint": "^6.1.3",
-    "tslint-config-prettier": "^1.18.0",
-    "tslint-react": "^5.0.0",
     "typescript": "^4.5.4",
     "workbox-cli": "^6.4.2"
   }

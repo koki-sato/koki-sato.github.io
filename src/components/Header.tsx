@@ -23,7 +23,7 @@ const Header: React.FC = () => {
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
-                <Link href="/about">
+                <Link href="/about" passHref={true}>
                   <button className="button is-white">About</button>
                 </Link>
                 <a href="http://k-sato.hatenablog.com/">
