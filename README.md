@@ -19,4 +19,4 @@ $ yarn install
 
 ### Deploy
 
-GitHub Actions will deploy automatically when you push to `master` branch :)
+GitHub Actions will deploy automatically when you push to `main` branch :)
