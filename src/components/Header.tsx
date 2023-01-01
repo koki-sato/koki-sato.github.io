@@ -11,7 +11,7 @@ const Header: React.FC = () => {
       <div className="container">
         <div className="navbar-brand">
           <Link href="/">
-            <a className="is-size-5">Portfolio</a>
+            <span className="is-size-5">Portfolio</span>
           </Link>
           <a className="navbar-burger burger" onClick={toggleNav}>
             <span aria-hidden="true" />
