@@ -2,14 +2,14 @@ import App from 'next/app'
 import Head from 'next/head'
 import React from 'react'
 
-import Footer from '../src/components/Footer'
-import Header from '../src/components/Header'
+import Footer from '~/src/components/Footer'
+import Header from '~/src/components/Header'
 
 import 'bulma/css/bulma.min.css'
-import '../src/styles/index.scss'
+import '~/src/styles/index.scss'
 
 class MyApp extends App {
-  public componentDidMount() {
+  public override componentDidMount() {
     if ('serviceWorker' in navigator && navigator.serviceWorker) {
       navigator.serviceWorker
         .register('/service-worker.js')
@@ -28,7 +28,7 @@ class MyApp extends App {
     }
   }
 
-  public render() {
+  public override render() {
     const { Component, pageProps } = this.props
 
     return (
