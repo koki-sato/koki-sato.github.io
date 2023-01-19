@@ -26,9 +26,6 @@ const Header: React.FC = () => {
                 <Link href="/about" passHref={true}>
                   <button className="button is-white">About</button>
                 </Link>
-                <a href="http://k-sato.hatenablog.com/">
-                  <button className="button is-white">Blog</button>
-                </a>
               </div>
             </div>
           </div>

@@ -20,9 +20,9 @@ const Index: React.FC = () => (
           Qiita
         </button>
       </a>
-      <a href="http://k-sato.hatenablog.com">
+      <a href="https://www.linkedin.com/in/koki-sato">
         <button type="button" className="button button-link">
-          Hatena Blog
+          LinkedIn
         </button>
       </a>
     </div>

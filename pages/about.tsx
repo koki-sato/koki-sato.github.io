@@ -8,12 +8,13 @@ const About: React.FC = () => (
       <header className="card-header">
         <p className="card-header-title">About</p>
       </header>
-      <div className="card-content">
-        <ul>
-          <li>Network Engineer</li>
-          <li>Web Engineer</li>
-          <li>CTF Player</li>
-        </ul>
+      <div className="card-content is-size-5">
+        <p>A software engineer in Tokyo who loves coding.</p>
+        <p className="mb-2">
+          I develop and operate a wide range from front-end to back-end and infrastructure.
+        </p>
+        <p>I used to work as a network engineer and operate large ISP network.</p>
+        <p>When I was a student, I was interested in security and played CTF (Capture The Flag).</p>
       </div>
     </div>
 
@@ -24,13 +25,16 @@ const About: React.FC = () => (
       <div className="card-content">
         <ul>
           <li>
-            2019/04 - Present : <b>Internet Multifeed Co.</b> -- <i>Network Engineer</i>
+            2023/01 - Present : <b>Preferred Networks, Inc.</b> -- <i>DevOps Engineer</i>
           </li>
           <li>
-            2016/10 - 2019/02 : <b>Increments inc.</b> -- <i>Engineer part-time job</i>
+            2019/04 - 2022/12 : <b>Internet Multifeed Co.</b> -- <i>Software & Network Engineer</i>
           </li>
           <li>
-            2018/03 - 2018/03 (4 weeks) : <b>LINE Corporation</b> -- <i>Engineer internship</i>
+            2016/10 - 2019/02 : <b>Increments inc. (Qiita Inc.)</b> -- <i>Engineer part-time job</i>
+          </li>
+          <li>
+            2018/03 - 2018/03 : <b>LINE Corporation</b> -- <i>Engineer internship</i>
           </li>
           <li>
             2017/08 - 2018/01 : <b>Wantedly inc.</b> -- <i>Engineer internship</i>
@@ -93,10 +97,10 @@ const About: React.FC = () => (
             <a href="https://www.linkedin.com/in/koki-sato">LinkedIn</a>
           </li>
           <li>
-            <a href="https://www.wantedly.com/users/18666745">Wantedly</a>
+            <a href="https://www.wantedly.com/id/koki310dm">Wantedly</a>
           </li>
           <li>
-            <a href="http://k-sato.hatenablog.com">Hatena Blog</a>
+            <a href="http://koki-sato.hatenablog.com">Hatena Blog</a>
           </li>
         </ul>
       </div>
