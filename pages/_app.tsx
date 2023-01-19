@@ -1,7 +1,5 @@
-import withGA from 'next-ga'
 import App from 'next/app'
 import Head from 'next/head'
-import Router from 'next/router'
 import React from 'react'
 
 import Footer from '../src/components/Footer'
@@ -74,4 +72,4 @@ class MyApp extends App {
   }
 }
 
-export default withGA('UA-90235017-2', Router)(MyApp)
+export default MyApp
