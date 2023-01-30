@@ -4,9 +4,6 @@ updates:
   directory: "/"
   schedule:
     interval: daily
-    time: "07:00"
-    timezone: Asia/Tokyo
-  open-pull-requests-limit: 10
   assignees:
   - koki-sato
   allow:
