@@ -31,7 +31,7 @@
   "devDependencies": {
     "@tsconfig/strictest": "^1.0.2",
     "@types/next": "^9.0.0",
-    "@types/react": "^18.0.26",
+    "@types/react": "^18.0.31",
     "eslint": "^8.31.0",
     "eslint-config-next": "^13.1.1",
     "eslint-config-prettier": "^8.5.0",
