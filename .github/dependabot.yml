@@ -1,10 +1,14 @@
 version: 2
 updates:
-- package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: daily
-  assignees:
-  - koki-sato
-  allow:
-  - dependency-type: direct
+  - package-ecosystem: npm
+    directory: '/'
+    schedule:
+      interval: daily
+    groups:
+      dependencies:
+        patterns:
+          - '*'
+    assignees:
+      - koki-sato
+    allow:
+      - dependency-type: direct

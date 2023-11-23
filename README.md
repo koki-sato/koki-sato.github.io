@@ -9,12 +9,12 @@ My portfolio page. See https://koki-sato.com
 
 ### Requirements
 
-- Node / Yarn
+- Node
 
 ### Setup
 
 ```bash
-$ yarn install
+$ npm install
 ```
 
 ### Deploy
