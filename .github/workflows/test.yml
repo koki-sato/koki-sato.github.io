@@ -1,12 +1,11 @@
-name: Build and Test
+name: Test
 
-on:
-  push:
-    branches-ignore: [gh-pages]
+on: push
 
 jobs:
   test:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 

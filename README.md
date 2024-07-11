@@ -1,9 +1,9 @@
 # koki-sato.github.io
 
-![Build and Test](https://github.com/koki-sato/koki-sato.github.io/workflows/Build%20and%20Test/badge.svg)
-![GitHub Pages](https://github.com/koki-sato/koki-sato.github.io/workflows/GitHub%20Pages/badge.svg)
+[![Test](https://github.com/koki-sato/koki-sato.github.io/actions/workflows/test.yml/badge.svg)](https://github.com/koki-sato/koki-sato.github.io/actions/workflows/test.yml)
+[![Deploy](https://github.com/koki-sato/koki-sato.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/koki-sato/koki-sato.github.io/actions/workflows/deploy.yml)
 
-My portfolio page. See https://koki-sato.com
+My portfolio page. See <https://koki-sato.com>
 
 ## Usage
 
